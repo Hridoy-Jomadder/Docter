@@ -30,6 +30,9 @@ Route::get('/', function () {
 
 // Route::get("/form", [DemoController::class,'SampleGetRequest']);
 
+Route::post('/find-location', 'LocationController@findLocation');
 
 
 Route::get('/',[DocterController::class,'index']);
+
+
